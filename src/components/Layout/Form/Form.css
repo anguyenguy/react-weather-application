@@ -1,0 +1,11 @@
+.Form{
+    background-image: linear-gradient(to right, #33313B , #007bff);
+    width: 400px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 800px) {
+    .Form{
+        background-image: linear-gradient(to right, #007bff, #33313B );
+    }
+}
